@@ -39,7 +39,7 @@
               
               <form class="form-container">
                 <label class="email-heading" for="email">Email address</label>
-                <input class="email-input" type="email">
+                <input class="email-input" type="email" placeholder="email@company.com">
                 <button class="cta-button">Subscribe to monthly newsletter</button>
                 
               </form>
@@ -54,12 +54,21 @@
     <!-- Sign-up form end -->
 
     <!-- Success message start -->
-<!-- 
-  Thanks for subscribing! A confirmation email has been sent to
-  ash@loremcompany.com. Please open it and click the button inside to confirm
-  your subscription. Dismiss message
-  -->
+<section class="success-msg success-msg-display">
+  <div class="success-container">
 
+    <img src="/assets/images/icon-success.svg" alt="Success checkmark" class="success-icon">
+    
+    <h1 class="thank-you-msg">Thanks for subscribing!</h1>
+    
+    <p class="thank-you-paragraph">A confirmation email has been sent to
+      <b>ash@loremcompany.com</b>. Please open it and click the button inside to confirm
+      your subscription.</p>
+      
+    <button class="dismiss-btn">Dismiss message</button>
+  </div>
+</section>
+  
     <!-- Success message end -->
     <script src="script.js"></script>
   </body>
